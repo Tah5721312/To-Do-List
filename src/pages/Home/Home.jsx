@@ -92,7 +92,7 @@ const Home = () => {
     return (
       <>
       <Helmet>
-        <title>HOME Page</title>
+        <title>{t("HOME")}</title>
       </Helmet>
       <Header />        
      <main>
@@ -108,7 +108,7 @@ const Home = () => {
 
           </h1>
           {i18n.language === "en" && (
-            
+
             <p className="pls">
               Please{" "}
               <Link style={{ fontSize: "30px" }} to="/signin">
@@ -163,7 +163,7 @@ const Home = () => {
     
           <>
             <Helmet>
-              <title>HOME Page</title>
+              <title>{t("HOME")}</title>
               <meta name="description" content="HOMEEEEEEEEEEEE" />
             </Helmet>      
             <Header />
@@ -184,7 +184,7 @@ const Home = () => {
     
           <>
             <Helmet>
-              <title>HOME Page</title>
+              <title>{t("HOME")}</title>
             </Helmet>      
             <Header />
              <main className="home">

@@ -14,9 +14,12 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import { auth } from "../firebase/config";
 import Moment from 'react-moment';
 import { deleteUser } from "firebase/auth";
+import { useTranslation } from "react-i18next";
+
 const Profile = () => {
   const navigate = useNavigate();
   const [user, loading, error] = useAuthState(auth);
+  const { t, i18n } = useTranslation();  //language
 
   const DeleteBTN = () => {
                              deleteUser(user).then(() => {
@@ -59,7 +62,7 @@ if (loading) {
     return (
       <>
         <Helmet>
-          <title>Profile Page</title>
+          <title>{t("Profile")}</title>
   
           <style type="text/css">{` 
         

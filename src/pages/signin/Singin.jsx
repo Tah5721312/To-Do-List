@@ -89,7 +89,7 @@ const Signin = () => {
   return (  
     <>
       <Helmet>
-        <title>Signin</title>
+        <title>{t("signin")}</title>
       </Helmet>
       <Header />
 
