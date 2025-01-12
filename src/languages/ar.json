@@ -1,0 +1,25 @@
+{
+  "signup": "إنشاء حساب",
+  "signin": "تسجيل الدخول",
+  "lang": "اللغة",
+  "signout": "تسجيل الخروج",
+  "support": "المساعدة",
+  "account": "حسابك",
+  "dont-have-account":"ليس لديك حساب",
+  "Forgot-Password":" نسيت كلمة السر  ؟",
+  "Create-account":" انشاء حساب جديد ",
+  "UserName":"اسم المستخدم",
+  "Email":" الايميل ",
+  "Password":"الباسورد",
+  "Already hava an account":" لدى حساب بالفعل ",
+  "Resend Password":" اعادة ارسال كلمة السر",
+  "Send email":"اعادة الارسال",
+  "Welcome":"مرحبا",
+  "Please verify your email to continue":" من فضلك قم بتأكيد حسابك للاستمرار",
+  "Conngratulation! you Completed your tasks":"تهانينا! لقد أكملت مهامك",
+  "Add Title":"اضافة عنوان",
+  "Details":"التفاصيل",
+  "Add":"اضافة",
+  "Submit":"نفذ"
+  
+}

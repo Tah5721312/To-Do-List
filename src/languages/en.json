@@ -1,0 +1,26 @@
+{
+  "signup": "Sign-up",
+  "signin": "Sign-in",
+  "lang": "language",
+  "signout": "Sign-out",
+  "support": "Support",
+  "account": "Profile",
+  "dont-have-account":"Don't hava an account",
+  "Forgot-Password":"Forgot Password ?",
+  "Create-account":" Create a new account",
+  "UserName":"UserName",
+  "Email":  "Email",
+  "Password":"Password",
+  "Already hava an account":"Already hava an account",
+  "Resend Password":"Resend Password",
+  "Send email":"Send email",
+  "Welcome":"Welcome",
+  "Please verify your email to continue":"Please verify your email to continue",
+  "Conngratulation! you Completed your tasks":"Conngratulation! you Completed your tasks",
+  "Add Title":"Add Title",
+  "Details":"Details",
+  "Add":"Add",
+  "Submit":"Submit"
+
+  
+}

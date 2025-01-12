@@ -1,0 +1,237 @@
+/* =============
+ table of contents
+===============
+
+
+1. ul class .flex
+      1.1 sub HTML + css + JavaScript
+      1.2 sub sub of CSS
+
+
+
+
+/* =======================================
+   1.1 sub HTML + css + JavaScript
+======================================== */
+
+.sub-ul {
+  display: none;
+  position: absolute;
+  top: 37px;
+  left: -30px;
+  /* border-top: 1px solid cyan; */
+  border: 1px solid cyan;
+  background-color: #131212;
+  border-radius: 8px;
+  padding: 5px;
+  width: 155px;
+  z-index: 5;
+}
+.Light  .sub-ul {
+  display: none;
+  position: absolute;
+  top: 37px;
+  left: -30px;
+  /* border-top: 1px solid cyan; */
+  border: 1px solid cyan;
+  background-color: teal;
+  border-radius: 8px;
+  padding: 5px;
+  width: 155px;
+  z-index: 5;
+
+}
+.main-list:hover .sub-ul {
+  display: block;
+
+}
+
+
+
+
+.sub-ul li ,.sub-div li ,.sub-sub-ul li   {
+  padding: 8px 5px;
+  font-size: 15px;
+  text-align: start;
+  border-bottom: 1px solid rgb(165, 155, 155);
+  transition: 0.15s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sub-ul li:hover ,.sub-div li a:hover {
+  color: cyan;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 17px;
+
+}
+
+
+/* =======================================
+   1.2 sub sub of CSS
+======================================== */
+/* .sub-div {
+  display: none;
+  position: absolute;
+  top: 35px;
+  left: -50px;
+  border-top: 1px solid cyan;
+  background-color: #1b1b1b;
+  border-radius: 8px;
+  padding: 5px;
+  width: 155px;
+}
+.main-list:hover .sub-div {
+  display: block;
+} */
+
+
+/* Ensure sub-sub-ul is hidden by default */
+/* .sub-sub-ul {
+  display: none;
+  position: absolute;
+  top: 82px;
+  left: 165px;
+  border-top: 1px solid cyan;
+  background-color: #1b1b1b;
+  border-radius: 5px;
+  padding: 5px;
+  width: 150px;
+} */
+
+/* Show sub-sub-ul when hovering over the mini-projects */
+/* .mini-projects:hover .sub-sub-ul {
+  display: block;
+} */
+
+/* 
+.sub-sub-ul li a:hover {
+  color: cyan;
+  font-weight: bold;
+} */
+
+/* ////////  end of sub sub /////////// */
+
+.main-list {
+  /* padding: 10px 20px; */
+  font-size: 16px;
+  position: relative;
+  /* border: 1px solid red; */
+}
+
+
+.main-link {
+  padding: 8px 10px;
+  margin-left: 4px;
+  margin-right: 20px;
+}
+
+.main-link:hover ,.main-link.active {
+  color: cyan;
+  box-shadow: 0 0 5px cyan;
+  border-radius: 5px;
+}
+
+
+
+.myheader .ali{
+  background-color: teal;
+}
+
+.hide-when-mobile {
+  display: flex;
+  justify-content: space-around;
+  align-items: center
+}
+
+
+
+
+/* ==================
+  
+===================== */
+
+.logo {
+  animation: logoani 14s infinite;
+}
+
+@keyframes logoani {
+
+  0%,
+  100% {
+    opacity: 0.8;
+  }
+
+  50% {
+    letter-spacing: 8px;
+    opacity: 1;
+  }
+}
+
+
+.logoo:hover {
+  font-size: x-large;
+}
+
+.signout
+{
+  all:unset;
+  padding: 8px 10px;
+  margin-right:20px;
+}
+.Light .signout
+{
+  color: rgb(255, 255, 255);
+}
+
+@keyframes down {
+  0% {
+    transform: translateY(-100px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+ header {
+  animation: down 1s 1;
+}
+
+
+/*============
+  sun & moon
+===========*/
+.Light .fa-sun
+{
+  display: none;
+}
+.fa-sun{
+  color: rgb(223, 178, 95);
+}
+.fa-solid:hover
+{
+  /* font-size: 25px; */
+  color: rgb(170, 233, 69);
+  cursor: pointer;
+  transition:  .5s;
+}
+.Dark .fa-moon
+{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

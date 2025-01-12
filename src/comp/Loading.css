@@ -1,0 +1,29 @@
+/*  انا استخدمت   react-loading-indicators  فدا ملوش لازمة */
+
+.loading{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+
+  border-top: 5px solid  #dc3545;
+  border-right: 5px solid  #dc3545;
+
+  animation: mymove 1s infinite linear;
+}
+
+
+@keyframes mymove {
+  0% {transform: rotate(0deg);}
+
+  100% {transform: rotate(360deg);}
+}
+.fa-heart-pulse
+{
+  font-size: 33px;
+  color: goldenrod;
+}
+.heart:hover
+{
+  font-size: 33px;
+  color: rgb(233, 59, 204);
+}

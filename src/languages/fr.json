@@ -1,0 +1,33 @@
+{
+  "signup": "S'inscrire",
+  "signin": "s'identifier",
+  "lang": " la langue",
+  "signout": "se déconnecter",
+  "support": "entre d'aidec",
+  "account": "Le profil",
+  "dont-have-account":"Je n'ai pas de compte",
+  "Forgot-Password":"Mot de passe oublié ?",
+  "Create-account":" Créer un nouveau compte",
+  "UserName":"Nom d'utilisateur",
+  "Email":  "Email",
+  "Password":"Mot de passe",
+  "Already hava an account":"J'ai déjà un compte",
+  "Resend Password":"Renvoyer le mot de passe",
+  "Send email":"Envoyer un e-mail",
+  "Welcome":"Bienvenue",
+  "Please verify your email to continue":"Veuillez vérifier votre email pour continuer",
+  "Conngratulation! you Completed your tasks":"Félicitation ! vous avez terminé vos tâches",
+  "Add Title":"Ajouter un titre",
+  "Details":"Détails",
+  "Add":"Ajouter",
+  "Submit":"Soumettre"
+
+
+
+
+
+
+
+
+
+}

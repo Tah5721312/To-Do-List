@@ -1,0 +1,243 @@
+/* ==========
+  Contents
+=======
+     1-title 
+     2-sub task section 
+     3-buttons 
+============*/
+.edit-task
+{
+  min-height: calc(100vh - 133px);
+
+}
+
+/* ==========
+    1-title 
+============*/
+.title-input
+{
+  background-color:transparent;
+  font-size: 24px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  margin-top: 11px;
+}
+.title-input:focus {
+  border: none; /* Remove the border when focused */
+  outline: none; /* Optional: removes the default outline */
+}
+
+.edit-task .fa-pen-to-square
+{
+  font-size: 25px;
+  margin-left: 13px;
+  transition: all 0.2s;
+
+}
+
+/* Light */
+
+.Light .edit-task .fa-pen-to-square ,.Light label ,.Light .title-input 
+{
+  color: #444;
+}
+
+
+.edit-task .fa-pen-to-square:hover
+{
+  font-size: 27px;
+  cursor: pointer;
+  color: orange;
+
+
+}
+
+/* ==========
+ 2-sub task section 
+============*/
+.edit-task section.sub-task
+ {
+  /* border:2px solid red; */
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ .edit-task .parent-time
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.edit-task .time
+{
+  font-size: 16px;
+  color: teal;
+}
+.edit-task #checkbox
+{
+  width: 18px;
+  height: 18px;
+  accent-color: teal;
+}
+
+.edit-task  label
+{
+font-size: 18px;
+margin-left: 3px;
+
+position: relative; /*يتحرك بالنسبة لمكانة الاصلى */
+bottom: 3px;
+}
+.edit-task .card-task ,.edit-task .add-task
+{
+  border-radius: 6px;
+  box-shadow: 0 5px 30px 0 rgb(0 0 0 / 15%);
+  background-color: #5f5e77c7;
+  padding: 16px;
+  transition: transform 1s;
+  margin-bottom: 11px;
+  justify-content: space-between;
+  font-size: 20px;
+  height: 20px;
+  /* font-weight: bold; */
+}
+
+.edit-task .add-task
+{
+  justify-content: flex-start;
+  color: #333;
+  animation: subtask 1s;
+
+}
+
+@keyframes subtask {
+  0%   {scale: 0;}
+  50%   {scale: 1.3;}
+  100%   {scale: 1;}
+
+} 
+
+
+.edit-task .card-task:hover {
+  background-color: #4e4d63c7;
+  border-left: 6px solid wheat;
+
+}
+/* Light */
+.Light .edit-task .card-task,.Light .edit-task .add-task
+{
+  background-color: #32323bc7;
+}
+/* Light */
+.Light .edit-task .card-task:hover {
+  background-color: #262531c7;
+  border-left: 6px solid #363434;
+}
+
+
+.edit-task .fa-trash
+{
+  color: rgb(254, 255, 255);
+  margin-right: 17px;
+}
+
+
+
+/* ==========
+ 3-buttons 
+============*/
+.edit-task .add-more-btn
+{
+  background-color: teal;
+  font-size: 17px;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  display: flex;
+  /* justify-content: center; */
+}
+
+
+.edit-task .add-task-btn 
+{
+  background-color: teal;
+  font-size: 17px;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+ margin-left: 19px;
+ display: flex;
+ justify-content: flex-start;
+}
+.edit-task .delete
+{
+  /* background-color: teal; */
+  font-size: 17px;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+
+}
+
+
+
+
+
+
+/* ============ */
+.forgot-password
+{
+  background-color: whitesmoke;
+  width: 400px;
+  height: 333px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  scale: 0;
+  transform: translateY(-100vh);
+transition: 1.3s;
+
+}
+.show-forgot-password
+{
+  scale: 1;
+  transform: translateY(0vh);
+}
+
+.forgot-pass
+{
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: normal;
+}
+.forgot-pass:hover
+{
+  font-size: 22px;
+  font-weight: bold;
+  transition: 0.5s;
+  color:rgb(85, 70, 219);
+}
+
+.close .fa-xmark
+{
+  font-size: 30px;
+  color: #444;
+  /* move according to his up member */
+  position: absolute; 
+  top: 10px;
+  right: 22px;
+}
+.close .fa-xmark:hover
+{
+  color: goldenrod;
+  font-size: 35px;
+  transform: rotate(90deg);
+  transition: 0.3s;
+}
